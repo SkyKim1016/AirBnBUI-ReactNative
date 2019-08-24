@@ -1,12 +1,12 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
+import Map from "./components/Explore/Map/Map"
+
 export default class Trips extends React.Component {
   render(){
     return (
-      <View style={styles.container}>
-        <Text>Trips</Text>
-      </View>
+     <Map/> 
     ); 
   }
 }
